@@ -1,0 +1,139 @@
+body {
+    background-color: rgb(131, 128, 128);
+    color: #111;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	
+}
+
+.info a {
+	color:  rgb(101, 95, 95);
+	text-decoration: none;
+	background: rgb(199, 190, 190);
+	border-radius: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+
+}
+
+a {
+	color:  rgb(101, 95, 95);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+	color: goldenrod;
+}
+
+.card {
+	padding: 15px 20px;
+	background: rgb(199, 190, 190);
+	margin-bottom: 20px;
+	border-radius: 20px;
+}
+.card li {
+	color: rgb(101, 95, 95);
+}
+.avatar {
+    width: 300px;
+    border-radius: 30px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0, 0);
+}
+
+.container {
+    width: 750px;
+    margin: auto;
+}
+
+.info {
+	margin-bottom: 20px;
+	display: flex;
+}
+
+@media (max-widht: 700px) {
+	.info {
+		display: block;
+	}
+}
+
+.info p {
+    color: rgb(47, 44, 44);
+    margin: 0;
+    font-style: italic;
+    font-weight: 900;
+    text-decoration: none;
+	background: rgb(199, 190, 190);
+	border-radius: 20px;
+	width: 250px;
+	padding: 10px;
+	margin: 10px;
+}
+
+.list {
+	padding: 0px 20px;
+}
+.list li {
+	margin-bottom: 10px;
+}
+
+.table {
+	width: 100%;
+}
+
+.table td {
+	padding-bottom: 10px;
+}
+.table td:nth-last-child(1), .table td:nth-last-child(2) {
+	color: rgb(121, 16, 16);
+}
+
+.table td:nth-last-child(3) {
+	color: rgb(101, 95, 95);
+}
+
+.link-list li {
+margin-bottom: 10px;
+padding-bottom: 5px;
+padding-left: 20px;
+background: rgb(217, 214, 214);
+border-radius: 20px;
+width: 200px;
+}
+.card h2 {
+	text-align: center;
+}
+
+.form-grup label {
+	display: block;
+}
+
+.form-grup input {
+	border: none;
+	border-radius: 30px;
+	background: rgb(217, 214, 214);
+	outline: none;
+	font-family: inherit;
+}
+
+.form-grup textarea {
+	border: none;
+	border-radius: 30px;
+	background: rgb(217, 214, 214);
+	outline: none;
+	font-family: inherit;
+}
+
+.btn {
+	padding: 15px 20px;
+	background: #111;
+	color: rgb(131, 128, 128);
+	border-radius: 10px;
+	border: none;
+	font-family: inherit;
+	cursor: pointer;
+}
